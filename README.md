@@ -46,7 +46,6 @@ The official web platform for **EMPREZA**, the annual leadership and sports even
 * **Node.js & Express.js:** RESTful API architecture.
 * **MongoDB & Mongoose:** NoSQL database for flexible data storage.
 * **JWT (JSON Web Tokens):** Secure authentication middleware.
-* **Multer:** Handling local image uploads and storage.
 
 ---
 
