@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment Variables (Keep your passwords safe!)
+.env
+client/.env
+server/.env
+
+# Build outputs
+client/dist/
+client/build/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# User Uploads (Optional: Don't upload test images)
+server/uploads/*
+!server/uploads/.gitkeep
