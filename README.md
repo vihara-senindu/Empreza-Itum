@@ -60,7 +60,7 @@ git clone https://github.com/vihara-senindu/Empreza-tum.git
 cd Empreza-tum
 ````
 
-2️⃣ Backend Setup
+### . Backend Setup
 
 Navigate to the root directory (where index.js is located).
 
@@ -68,5 +68,14 @@ Install dependencies:
 
 ````bash
 npm install
+
+````
+
+Create a .env file in the root directory:
+
+````bash
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key_here
 
 ````
