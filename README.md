@@ -60,7 +60,7 @@ git clone https://github.com/vihara-senindu/Empreza-tum.git
 cd Empreza-tum
 ````
 
-### . Backend Setup
+### 2. Backend Setup
 
 Navigate to the root directory (where index.js is located).
 
@@ -77,5 +77,63 @@ Create a .env file in the root directory:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key_here
+
+````
+
+Start the backend server:
+
+
+````bash
+npm start
+# or
+node index.js
+
+````
+
+ℹ️ The server will automatically create an uploads/ folder for images.
+
+
+### 3. Frontend Setup
+
+Open a new terminal and navigate to the client folder.
+
+
+````bash
+cd client
+npm install
+npm run dev
+````
+
+### 4. Access the Application
+
+Public Website: http://localhost:5173
+
+Admin Panel: http://localhost:5173/login
+
+Backend API: http://localhost:5000
+
+📂 Project Structure
+
+````bash
+
+Empreza-tum/
+├── client/                 # React Frontend
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── admin/      # Admin dashboard components
+│   │   │   ├── layout/     # Navbar, Footer
+│   │   │   └── sections/   # Hero, News, Gallery
+│   │   ├── Admin.css       # Admin-specific styles
+│   │   └── App.jsx         # Routing
+│   └── vite.config.js
+│
+├── config/                 # Database configuration
+├── middleware/             # Auth & upload middleware
+├── models/                 # Mongoose schemas
+├── routes/                 # API routes
+├── uploads/                # Uploaded images (auto-generated)
+├── index.js                # Server entry point
+└── package.json
+
 
 ````
