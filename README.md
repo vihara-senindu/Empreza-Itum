@@ -1,0 +1,72 @@
+# 🏆 EMPREZA - ITUM Official Website
+
+![Project Status](https://img.shields.io/badge/Status-Active-success)
+![MERN Stack](https://img.shields.io/badge/Stack-MERN-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+The official web platform for **EMPREZA**, the annual leadership and sports event organized by the Institute of Technology, University of Moratuwa (ITUM). This full-stack application manages event news, live scores, galleries, and provides a secure administrative dashboard for organizers.
+
+---
+
+---
+
+## 🚀 Features
+
+### 🌐 Public Interface
+* **Hero Section:** Dynamic slider showcasing event highlights.
+* **Live Countdown:** Real-time countdown timer to the event launch.
+* **News Feed:** Latest announcements and updates for participants.
+* **Games & Sports:** Showcase of all sporting events with descriptions.
+* **Hall of Fame:** Interactive scoreboard and history timeline of past winners.
+* **Creative Gallery:** Responsive "Accordion-style" image gallery with zoom effects.
+* **Responsive Design:** Fully optimized for mobile, tablet, and desktop.
+
+### 🛡️ Admin Dashboard (CMS)
+* **Secure Authentication:** JWT-based login system for administrators.
+* **Dashboard Overview:** Sidebar navigation with a quick-access grid.
+* **Content Management:**
+    * **Slider:** Add/Edit/Delete homepage hero images.
+    * **News:** Post updates and announcements.
+    * **Games:** Manage the list of sports activities.
+    * **Stats:** Update live scores, team counts, and leading teams.
+    * **Timer:** Start/Stop the event countdown and set custom end messages.
+    * **Gallery:** Upload event photos with captions.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+* **React.js (Vite):** Fast, component-based UI library.
+* **CSS3 (Custom):** Advanced styling using Glassmorphism, CSS Grid, and Flexbox.
+* **Axios:** For HTTP requests to the backend.
+* **React Router:** For seamless single-page navigation.
+
+### Backend
+* **Node.js & Express.js:** RESTful API architecture.
+* **MongoDB & Mongoose:** NoSQL database for flexible data storage.
+* **JWT (JSON Web Tokens):** Secure authentication middleware.
+* **Multer:** Handling local image uploads and storage.
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to run the project locally.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/vihara-senindu/Empreza-tum.git
+cd Empreza-tum
+````
+
+2️⃣ Backend Setup
+
+Navigate to the root directory (where index.js is located).
+
+Install dependencies:
+
+````bash
+npm install
+
+````
